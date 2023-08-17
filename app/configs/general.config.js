@@ -2,9 +2,9 @@ module.exports = {
     DBConnectors: {
         host: process.env.DB_HOST || "db4free.net",
         port: process.env.DB_PORT || 3306,
-        username: process.env.DB_USER || "audiobook",
-        password: process.env.DB_PASSWORD || "thanhbinh88",
-        database: process.env.DB_NAME || "audiobook",
+        username: process.env.DB_USER || "pheu_12",
+        password: process.env.DB_PASSWORD || "biiunhi36",
+        database: process.env.DB_NAME || "pheu_12",
         dialect: process.env.DB_DIALECT || "mysql",
     },
     jwtAuthKey: 'abcxyz',
